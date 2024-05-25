@@ -1,8 +1,12 @@
-/* Generic Div Padding / Positioning */
-div{
-    padding: 0px;
+body {
     margin: 0px;
+    padding: 0px;
 }
+
+/* div{
+    padding: 5px;
+    margin: 0px;
+} */
 
 /*
     margin-top
@@ -12,22 +16,53 @@ div{
  */
 
 /* Section Block Colour Scheme */
-div.header{
+div#topbar{
     padding: 5px;
+    padding-left: 50px;
     background: #393A40;
     color: #FEFFFE;
 }
-div.sidebar{
+
+div#sidebar{
+    padding-left: 25px;
     background: #ECE6DF;
     color: #393A40;
 }
-div.resume{
+div#resume{
     background: #FEFFFE;
     color: #000000;
 }
 
+div.section{
+    /* Sometimes I set wonky borders just to see and test positioning things during layout mockups*/
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 2px rgb(22, 166, 32) dashed;
+    background: #FEFFFE;
+    margin: 0px;
+}
+
+div.example-card{
+    /* Sometimes I set wonky borders just to see and test positioning things during layout mockups*/
+    border: 2px rgb(193, 89, 29) dashed;
+    background: #FEFFFE;
+}
+
 h1, h2, h3, h4, p, li {
     font-family: sans-serif
+}
+
+
+h2.content {
+    border-bottom: 1px solid #000000;
+    /* height: .75rem;
+    outline: 1px solid #000000;
+    outline-offset: 10px; */
+    padding-bottom: 0px;
+  }
+
+b,strong {
+    font-weight: bolder
 }
 
 /* Design inspirations */
