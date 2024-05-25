@@ -6,8 +6,7 @@ You will build a personal portfolio website using HTML/CSS in your `portfolio` G
 
 The `portfolio` should incorporate your resume as outlined in the labs. The portfolio should also include a `projects` section which will include a technical (and visual) outline of a previous project (from a lab, previous course or some other experience you might have).
 
-In subsequent assignments you can incorporate additional
-technologies / frameworks and interactivity, but for this first
+In subsequent assignments you can incorporate additional technologies / frameworks and interactivity, but for this first
 delivery, limit to plain HTML and CSS.
 
 ## Deliverables
