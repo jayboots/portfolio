@@ -65,6 +65,16 @@ b,strong {
     font-weight: bolder
 }
 
+.row {
+    display: flex;
+}
+  
+.column {
+    flex: 50%;
+    padding-right: 10px;
+}
+
+
 /* Design inspirations */
 /* Colours inspired by */
 /* https://resumaker.ai/s3/en-US/cv-examples/Html-Developer-CV-Example.png */
