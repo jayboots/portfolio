@@ -14,169 +14,201 @@
     <title>Portfolio - Assignment 1 Group 55</title>
   </head>
   <body>
+
     <div id="topbar">
-      <!-- Constant minimalist header placeholder -->
-      <h1>Julia Bootsma & Tori Wu</h1>
-      <p>Front & Back-end Development</p>
+      <div class="container">
+        <div>
+          <h1>Julia Bootsma & Tori Wu</h1>
+          <p>Front & Back-end Development</p>
+        </div>
+      </div>
     </div>
-    <div id="sidebar">
+
+    <div id="navbar">
+      <div class="container">
       <!-- The navbar / sidebar will contain links to "about", "resume", and "projects" sections -->
-      <ul class="nav">
-        <li class="navitem"><a href="#experience">Experience</a></li>
-        <li class="navitem"><a href="#education">Education</a></li>
-        <li class="navitem"><a href="#skills">Skills</a></li>
-        <li class="navitem"><a href="#projects">Projects</a></li>
-        <li class="navitem-right"><a href="#contact">Contact Us</a></li>
-      </ul>
+        <ul class="nav">
+          <li class="navitem"><a href="#experience">Experience</a></li>
+          <li class="navitem"><a href="#education">Education</a></li>
+          <li class="navitem"><a href="#skills">Skills</a></li>
+          <li class="navitem"><a href="#projects">Projects</a></li>
+          <li class="navitem-right"><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
     </div>
+    <!-- Main page section -->
     <div class="content">
-      <div class="about">
-        <!-- TBD -->
-      </div>
-      <div id="resume">
-        <!-- This section will be one of a few, this will fulfill the resume requirements -->
-        <div class="section">
-          <h2 class="content">Summary</h2>
-          <p>Add your summary/intro here?</p>
-          <p>
-            Hi, I'm Tori, a student in Computer Science looking for a career in
-            software development. I am familiar with backend technologies like
-            Java and Spring, but also open to working in frontend.
-          </p>
-        </div>
-        <div id="experience" class="section">
-          <h2 class="content">Work Experience</h2>
-          <div class="example-card">
-            <h3>Software/Web Developer (co-op), Trading Central - Tori W.</h3>
-            <h4>Jan 2024 - Apr 2024</h4>
-            <ul>
-              <li>
-                Developed and devised design specs for single and batch REST
-                APIs in Spring to satisfy business requirements for a new
-                product line in collaboration with product owners and frontend
-                developers
-              </li>
-              <li>
-                Collaborated with other backend developers to ideate, design,
-                and execute a new Spring Batch job, facilitating the ingestion
-                of raw data from a third-party provider into the system
-              </li>
-              <li>
-                Designed and created PostgreSQL databases and tables to store
-                data used by APIs and other domain related applications and
-                services
-              </li>
-            </ul>
-          </div>
-          <div class="example-card">
-            <h3>Quality Engineer (co-op), RBC - Tori W.</h3>
-            <h4>May 2023 - Aug 2023</h4>
-            <ul>
-              <li>
-                Updated pre-existing automation framework for creating/uploading
-                payment files to downstream applications and verifying response
-                files from upstream applications to support around 120
-                additional regression tests using Java
-              </li>
-              <li>
-                Designed and created End-to-End scenarios for retail and
-                commercial payments such as global payments and cheques
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="section">
-          <h2 class="content">References</h2>
-          <p><i>References availble upon request</i></p>
-        </div>
-        <div id="education" class="section">
-          <h2 class="content">Education</h2>
-          <ul class="credentials">
-            <li>
-              <!--add separate education sections or combine into one?-->
-              <div>Computer Science</div>
-              <div>University of Ottawa</div>
-              <div>2025</div>
-            </li>
-          </ul>
-        </div>
-        <div id="skills" class="section">
-          <h2 class="content">Skills</h2>
-          <ul>
-            <li>
-              <strong>Languages:</strong> Java, Python, Javascript, Typescript,
-              HTML5, CSS
-            </li>
-            <li><strong>Frameworks:</strong> Spring Boot, Angular</li>
-            <li>
-              <strong>Tools:</strong> Git/Github, IntelliJ IDE, VSCode, Eclipse,
-              Office 365, Adobe Creative Suite, Postman API
-            </li>
-          </ul>
-        </div>
-        <div id="projects" class="projects">
+      <div class="container">
+        <div id="resume">
           <div class="section">
-            <h2 class="content">Projects</h2>
-            <div class="example-card">
-              <h4>Project Title</h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-              <img src="static/media/testimage.jpg" width="150" />
-            </div>
-            <div class="example-card">
-              <h4>Project Title</h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-              <img src="static/media/testimage.jpg" width="150" />
-            </div>
-            <div class="example-card">
-              <h4>Project Title</h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-              <img src="static/media/testimage.jpg" width="150" />
+            <h2 class="content">About Us</h2>
+            <!-- Will do a split flex box for this section -->
+            <div id="intro-container">
+
+              <div class="row">
+                <div class="column">
+                  <h3>Hey, I'm Julia Bootsma</h3>
+                  <p>I'm a Senior Data Analyst in a Machine Learning & Artificial Intelligence unit in the federal public service. I've got some web development experience, but I'm always eager to learn more.</p>
+                  <p>Why not have a look at some <a href="#projects">projects</a> I've worked on?</p>
+                </div>
+                <div class="column">
+                  <h3>Hi, I'm Tori Wu</h3>
+                  <p>I'm a student in Computer Science looking for a career in software development. I am familiar with backend technologies like Java and Spring, but also open to working in frontend.</p>
+                  <p>Feel free to check over my <a href="#experience">resume and work experience</a> below!</p>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div id="contact" class="section">
-          <h2 class="content">Contact us</h2>
-          <div class="row">
-            <div class="column">
-              <h3>Julia Bootsma</h3>
+          <div id="experience" class="section">
+            <h2 class="content">Work Experience</h2>
+            <div class="card">
+              <h3>Software/Web Developer (co-op), Trading Central - Tori W.</h3>
+              <h4>Jan 2024 - Apr 2024</h4>
               <ul>
-                <li class="email">
-                  <strong>Email:</strong> a.carter@vertexdynamics.com
+                <li>
+                  Developed and devised design specs for single and batch REST
+                  APIs in Spring to satisfy business requirements for a new
+                  product line in collaboration with product owners and frontend
+                  developers
                 </li>
-                <li class="telephone">
-                  <strong>Phone:</strong> (812) 555-0198
+                <li>
+                  Collaborated with other backend developers to ideate, design,
+                  and execute a new Spring Batch job, facilitating the ingestion
+                  of raw data from a third-party provider into the system
                 </li>
-                <li class="mailing-address">
-                  <strong>Address:</strong> <br />123 Innovation Drive
-                  <br />Tech Park, Suite 200 <br />Jeffersonville, IN 47130
+                <li>
+                  Designed and created PostgreSQL databases and tables to store
+                  data used by APIs and other domain related applications and
+                  services
                 </li>
               </ul>
             </div>
-            <div class="column">
-              <h3>Tori Wu</h3>
+            <div class="card">
+              <h3>Quality Engineer (co-op), RBC - Tori W.</h3>
+              <h4>May 2023 - Aug 2023</h4>
               <ul>
-                <li class="email"><strong>Email:</strong> cwu135@uottawa.ca</li>
-                <li class="telephone">
-                  <strong>Phone:</strong> (416) 888-1129
+                <li>
+                  Updated pre-existing automation framework for creating/uploading
+                  payment files to downstream applications and verifying response
+                  files from upstream applications to support around 120
+                  additional regression tests using Java
                 </li>
-                <li class="mailing-address">
-                  <strong>Address:</strong>
-                  Ottawa, Ontario
+                <li>
+                  Designed and created End-to-End scenarios for retail and
+                  commercial payments such as global payments and cheques
                 </li>
               </ul>
+            </div>
+          </div>
+          <div class="section">
+            <h2 class="content">References</h2>
+            <p><i>References availble upon request</i></p>
+          </div>
+          <div id="education" class="section">
+            <h2 class="content">Education</h2>
+            <ul class="credentials">
+              <li>
+                <!--add separate education sections or combine into one?-->
+                <div>Computer Science</div>
+                <div>University of Ottawa</div>
+                <div>2025</div>
+              </li>
+            </ul>
+          </div>
+          <div id="skills" class="section">
+            <h2 class="content">Skills</h2>
+            <ul>
+              <li>
+                <strong>Languages:</strong> Java, Python, Javascript, Typescript,
+                HTML5, CSS
+              </li>
+              <li><strong>Frameworks:</strong> Spring Boot, Angular</li>
+              <li>
+                <strong>Tools:</strong> Git/Github, IntelliJ IDE, VSCode, Eclipse,
+                Office 365, Adobe Creative Suite, Postman API
+              </li>
+            </ul>
+          </div>
+          <div id="projects" class="projects">
+            <div class="section">
+              <h2 class="content">Projects</h2>
+              <!-- Project 1 -->
+              <div class="project-card">
+                <div class="project-card-container">
+                  <div class="project-card-image"  id="project-1">
+                  </div>
+                  <div class="project-card-interior">   
+                    <h3>Project Title</h3>
+                    <div class="project-card-description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Project 2 -->
+              <div class="project-card">
+                <div class="project-card-container">
+                  <div class="project-card-image"  id="project-2">
+                  </div>
+                  <div class="project-card-interior">   
+                    <h3>Project Title</h3>
+                    <div class="project-card-description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Project 3 -->
+              <div class="project-card">
+                <div class="project-card-container">
+                  <div class="project-card-image"  id="project-3">
+                  </div>
+                  <div class="project-card-interior">   
+                    <h3>Project Title</h3>
+                    <div class="project-card-description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="contact" class="section">
+            <h2 class="content">Contact us</h2>
+            <div class="row">
+              <div class="column">
+                <h3>Julia Bootsma</h3>
+                <ul>
+                  <li class="email">
+                    <strong>Email:</strong> jboot099@uOttawa.ca
+                  </li>
+                  <li class="telephone">
+                    <strong>Phone:</strong> (123) 555-1234
+                  </li>
+                  <li class="mailing-address">
+                    <strong>Address:</strong>
+                    Ottawa, Ontario
+                  </li>
+                </ul>
+              </div>
+              <div class="column">
+                <h3>Tori Wu</h3>
+                <ul>
+                  <li class="email"><strong>Email:</strong> cwu135@uottawa.ca</li>
+                  <li class="telephone">
+                    <strong>Phone:</strong> (416) 888-1129
+                  </li>
+                  <li class="mailing-address">
+                    <strong>Address:</strong>
+                    Ottawa, Ontario
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+    
   </body>
 </html>
