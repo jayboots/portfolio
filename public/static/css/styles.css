@@ -45,6 +45,13 @@ div#resume{
     color: #000000;
 }
 
+/* Topbar Logo */
+div#logo{
+    float: inline-end;
+    position: static;
+    right: 250px;
+}
+
 /* Projects Section */
 
 div.project-card {
