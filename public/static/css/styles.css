@@ -86,6 +86,11 @@ div.project-card-img-container{
     background-image: url("../media/images/p3_thumb.png");
 }
 
+#p4{
+    background-position: left top;
+    background-image: url("../media/placeholder/testimage.jpg");
+}
+
 div.project-card-container{
     margin-left: 1rem;
     height: 100%;
